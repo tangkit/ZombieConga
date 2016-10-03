@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB3712E01D9CD02B00F3FC05 /* MyUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3712DF1D9CD02B00F3FC05 /* MyUtils.swift */; };
 		FB85C6DD1D98EA9E00603B28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB85C6DC1D98EA9E00603B28 /* AppDelegate.swift */; };
 		FB85C6E11D98EA9E00603B28 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB85C6E01D98EA9E00603B28 /* GameScene.swift */; };
 		FB85C6E31D98EA9E00603B28 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB85C6E21D98EA9E00603B28 /* GameViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FB3712DF1D9CD02B00F3FC05 /* MyUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyUtils.swift; sourceTree = "<group>"; };
 		FB85C6D91D98EA9E00603B28 /* ZombieConga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZombieConga.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB85C6DC1D98EA9E00603B28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB85C6E01D98EA9E00603B28 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 		FB85C6DB1D98EA9E00603B28 /* ZombieConga */ = {
 			isa = PBXGroup;
 			children = (
+				FB3712DF1D9CD02B00F3FC05 /* MyUtils.swift */,
 				FB85C6DC1D98EA9E00603B28 /* AppDelegate.swift */,
 				FB85C6E01D98EA9E00603B28 /* GameScene.swift */,
 				FB85C6E21D98EA9E00603B28 /* GameViewController.swift */,
@@ -262,6 +265,7 @@
 				FB85C6E11D98EA9E00603B28 /* GameScene.swift in Sources */,
 				FB85C6E31D98EA9E00603B28 /* GameViewController.swift in Sources */,
 				FB85C6DD1D98EA9E00603B28 /* AppDelegate.swift in Sources */,
+				FB3712E01D9CD02B00F3FC05 /* MyUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,6 +494,7 @@
 				FB85C7071D98EA9E00603B28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FB85C7081D98EA9E00603B28 /* Build configuration list for PBXNativeTarget "ZombieCongaTests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +503,7 @@
 				FB85C70A1D98EA9E00603B28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FB85C70B1D98EA9E00603B28 /* Build configuration list for PBXNativeTarget "ZombieCongaUITests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +512,7 @@
 				FB85C70D1D98EA9E00603B28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
